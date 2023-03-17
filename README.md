@@ -1,7 +1,9 @@
 # Ransomware
 python ransomware that uses blowfish to encrypt the files and sends the decryption key through SMS using twilio.
-# non-functional-ransomware
+
 ## Required installations
+- open file location and type **cmd** and **enter** in the top left
+- enter these into the command prompt: 
 ```bash
 pip install twilio
 ```
@@ -34,6 +36,7 @@ message = client.messages.create(
     sms_label = tk.Label(root, text="EXAMPLE: SMS YOUREMAIL@.com for decryption key")
     sms_label.pack(pady=5)
 ```
+- this will determine the message that shows at the top of your GUI
     
 ## Converting to .exe
 - open file location and type **cmd** and **enter** in the top left
@@ -46,3 +49,7 @@ pyinstaller --onefile -w main.py
 ```
 - **--onefile** makes the exe compact instead of having multiple files
 - **-w** hides the command prompt when the it is running
+# ⚠️DISCLAIMER/WARNING⚠️
+- THIS IS FOR EDUCATIONAL PURPOSES ONLY
+- i am not responsible for malicious use of this program
+- distrubuting this is illegal 
