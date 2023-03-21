@@ -51,5 +51,4 @@ pyinstaller --onefile -w main.py
 - **-w** hides the command prompt when the it is running
 # ⚠️DISCLAIMER/WARNING⚠️
 - THIS IS FOR EDUCATIONAL PURPOSES ONLY
-- i am not responsible for malicious use of this program
-- distrubuting this is illegal 
+- i am not responsible for malicious use of this program or damage caused by it
